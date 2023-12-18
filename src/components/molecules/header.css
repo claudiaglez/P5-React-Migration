@@ -1,0 +1,58 @@
+.buttons {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .decorations{
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .diamond {
+    margin-top:150px;
+    margin-left: 80px;
+  }
+
+  .diamond img {
+    height: 10px;
+  }
+
+  .yellow_circle {
+    margin-top:150px;
+    padding-right: 30px;
+  }
+
+  .yellow_circle img{
+    height: 20px;
+  }
+
+.phone {
+    height: 3rem;
+    width: 3rem;
+    box-sizing: content-box;
+}
+
+  .phone:hover {
+    animation-name: bounce;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    25%,
+    75% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
